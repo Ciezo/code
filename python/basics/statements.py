@@ -45,3 +45,17 @@ get_x, get_y, get_name = get_user_input(x, y, name)
 print(get_x)
 print(get_y)
 print(get_name)
+
+##############################################
+# Conclusion and wrap up
+# From book: 
+#   A script usually contains a sequence of statements. If there is more than one
+#   statement, the results appear one at a time as the statements execute.
+
+#   What we did so far is we simply tried to showcase different ways statements can be seen and used in Python. 
+#   Remember that statement is a unit of code where we can execute what that line of code does. And if there is an output
+#   It will be displayed accordingly and rightfully by the interpreter. 
+# 
+#   Actually, what you are always writing in code is a bunch of statements, expressions, and code blocks where we try and solve
+#   the task in an objective and procedural way. So always remember that you are always creating statements whenever you code! 
+##############################################
