@@ -59,3 +59,7 @@ print(get_name)
 #   Actually, what you are always writing in code is a bunch of statements, expressions, and code blocks where we try and solve
 #   the task in an objective and procedural way. So always remember that you are always creating statements whenever you code! 
 ##############################################
+
+
+#################################
+# NEXT: Operators and Operands
