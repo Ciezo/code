@@ -37,3 +37,6 @@ if (var_bool == False):
 
 print(var_bool)
 print(type(var_bool))
+
+#################################
+# NEXT: Statements
