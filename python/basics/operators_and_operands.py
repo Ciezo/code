@@ -61,4 +61,32 @@ print(exp_n)
 
 # COMPARISON OPERATORS 
 # ____________________________
+# For this exercise and practice, we will try to define a function which evaluates two numbers whether they 
+# are larger, smaller, or equal to each other. 
+def eval_output(comp_val1, comp_val2):
+    if (comp_val1 == comp_val2):
+        print("Both numbers are equal")
+    
+    elif (comp_val1 >= comp_val2): 
+        print("Value 1 is HIGHER")
+        result_eval = comp_val1
+        return result_eval
 
+    elif (comp_val1 <= comp_val2):
+        print("Value 2 is HIGHER")
+        result_eval = comp_val2
+        return result_eval
+
+
+
+# Call the function
+# Here, num1 is bigger
+eval_op = eval_output(num1, num2)
+print("The larger number is: ", eval_op)
+
+# Here, the second parameter is larger
+result_op = eval_output(20, 100)
+print(result_op)
+
+# For this call, we have both numbers
+eval_output(10, 10)
